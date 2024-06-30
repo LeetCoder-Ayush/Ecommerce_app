@@ -24,9 +24,9 @@ class TGridLayout extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
+        mainAxisExtent: mainAxisExtent,
         mainAxisSpacing: TSizes.gridViewSpacing,
         crossAxisSpacing: TSizes.gridViewSpacing,
-        mainAxisExtent: 288,
       ),
       itemBuilder: itemBuilder,
     );
