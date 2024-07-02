@@ -8,6 +8,8 @@ class TImages {
 
   static const String rightArrow = "assets/icons/right_arrow.png";
 
+  static const String user = "assets/images/user/user.jpg";
+
   static const String onBoardingImage1 = "assets/images/on_boarding_images/searching.gif";
   static const String onBoardingImage2 = "assets/images/on_boarding_images/shopping.gif";
   static const String onBoardingImage3 = "assets/images/on_boarding_images/delivery.gif";

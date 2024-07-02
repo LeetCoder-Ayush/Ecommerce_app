@@ -5,7 +5,6 @@ import 'package:e_commerce/features/authentication/screens/onboarding/widgets/on
 import 'package:e_commerce/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/constants/text_strings.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

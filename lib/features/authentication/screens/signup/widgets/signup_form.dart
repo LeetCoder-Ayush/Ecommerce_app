@@ -2,7 +2,6 @@ import 'package:e_commerce/features/authentication/screens/signup/verify_email.d
 import 'package:e_commerce/features/authentication/screens/signup/widgets/terms_condition_checkbox.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/constants/text_strings.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

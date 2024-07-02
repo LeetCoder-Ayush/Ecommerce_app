@@ -1,4 +1,3 @@
-import 'package:e_commerce/app.dart';
 import 'package:e_commerce/features/authentication/screens/password_configuration/reset_password.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/constants/text_strings.dart';
@@ -20,12 +19,12 @@ class ForgetPassword extends StatelessWidget {
           children: [
             Text(
               TTexts.forgetPasswordTitle,
-              style: Theme.of(context).textTheme.headline6,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: TSizes.spaceBtwItems),
             Text(
               TTexts.forgetPasswordSubTitle,
-              style: Theme.of(context).textTheme.subtitle1,
+              style: Theme.of(context).textTheme.titleMedium,
             ),
             const SizedBox(height: TSizes.spaceBtwSections * 2),
             TextFormField(

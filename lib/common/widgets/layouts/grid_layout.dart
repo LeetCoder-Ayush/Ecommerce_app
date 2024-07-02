@@ -1,4 +1,3 @@
-import 'package:e_commerce/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:flutter/cupertino.dart';
 
