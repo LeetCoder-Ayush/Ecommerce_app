@@ -1,8 +1,8 @@
 import 'package:e_commerce/common/widgets/custom_shapes/curved_edges/curved_edges.dart';
 import 'package:flutter/cupertino.dart';
 
-class TcurvedEdgeWidget extends StatelessWidget {
-  const TcurvedEdgeWidget({
+class TCurvedEdgeWidget extends StatelessWidget {
+  const TCurvedEdgeWidget({
     super.key, this.child,
   });
 
