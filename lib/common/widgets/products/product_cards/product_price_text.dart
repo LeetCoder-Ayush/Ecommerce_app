@@ -7,6 +7,7 @@ class TProductPriceText extends StatelessWidget {
     required this.price,
     this.isLarge = false,
     this.maxLines = 1,
+    this.color,
     this.lineThrough = false,
   });
 
@@ -14,6 +15,7 @@ class TProductPriceText extends StatelessWidget {
   final int maxLines;
   final bool isLarge;
   final bool lineThrough;
+  final Color? color;
 
 
   @override
@@ -24,7 +26,9 @@ class TProductPriceText extends StatelessWidget {
       overflow: TextOverflow.ellipsis,
       style: isLarge
         ? Theme.of(context).textTheme.headlineMedium!.apply(decoration: lineThrough ? TextDecoration.lineThrough : null)
-          : Theme.of(context).textTheme.titleLarge!.apply(decoration: lineThrough ? TextDecoration.lineThrough : null),
+          : Theme.of(context).textTheme.titleLarge!.apply(decoration: lineThrough ? TextDecoration.lineThrough : null).copyWith(
+        color: color,
+      ),
     );
   }
 }
