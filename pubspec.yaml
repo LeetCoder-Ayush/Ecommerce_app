@@ -31,6 +31,7 @@ dependencies:
   #Product Specific
   readmore: ^2.2.0
   carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -47,6 +48,7 @@ flutter:
     - assets/icons/
     - assets/images/user/
     - assets/images/
+    - assets/images/reviews/
     - assets/images/on_boarding_images/
     - assets/images/animations/
     - assets/images/banners/
