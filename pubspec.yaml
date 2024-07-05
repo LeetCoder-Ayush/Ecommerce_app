@@ -46,6 +46,7 @@ flutter:
   assets:
     - assets/logos/
     - assets/icons/
+    - assets/icons/payment_method/
     - assets/images/user/
     - assets/images/
     - assets/images/reviews/
