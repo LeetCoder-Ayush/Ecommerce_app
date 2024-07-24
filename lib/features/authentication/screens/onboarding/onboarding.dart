@@ -1,4 +1,4 @@
-import 'package:e_commerce/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import 'package:e_commerce/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:e_commerce/features/authentication/screens/onboarding/widgets/onboarding_dart_navigation.dart';
 import 'package:e_commerce/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
 import 'package:e_commerce/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
@@ -55,5 +55,3 @@ class OnBoardingScreen extends StatelessWidget {
     );
   }
 }
-
-

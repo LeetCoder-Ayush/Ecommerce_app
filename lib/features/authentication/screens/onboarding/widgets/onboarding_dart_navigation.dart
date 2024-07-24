@@ -1,4 +1,4 @@
-import 'package:e_commerce/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import 'package:e_commerce/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/device/device_utility.dart';

@@ -15,7 +15,9 @@ dependencies:
   http: ^1.2.0
   intl: ^0.19.0
   logger: ^2.0.1
+  lottie: ^2.7.0
   url_launcher: ^6.1.12
+  connectivity_plus: ^5.0.1
   flutter_native_splash: ^2.3.11
   smooth_page_indicator: ^1.1.0
 
@@ -32,6 +34,11 @@ dependencies:
   readmore: ^2.2.0
   carousel_slider: ^4.2.1
   flutter_rating_bar: ^4.0.1
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.13.1
 
 dev_dependencies:
   flutter_test:

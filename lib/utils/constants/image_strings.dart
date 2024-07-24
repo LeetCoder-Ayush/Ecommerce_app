@@ -20,6 +20,18 @@ class TImages {
   static const String deliveredInPLaneIllustration = "assets/images/animations/delivered_illustration.png";
   static const String deliveredEmailIllustration = "assets/images/animations/delivered_email_illustration.png";
   static const String verifyIllustration = "assets/images/animations/verify_illustration.jpg";
+  static String orderCompleteAnimation = "assets/images/animations/order complete.json";
+  static String packageAnimation = "assets/images/animations/package.json";
+  static String paperPlaneAnimation = "assets/images/animations/paper plane.json";
+  static String pencilAnimation = "assets/images/animations/pencil.json";
+  static String doserAnimation = "assets/images/animations/doser.json";
+  static String searchAnimation = "assets/images/animations/search.json";
+  static String securityAnimation = "assets/images/animations/security.json";
+  static String successfullyRegisteredAnimation = "assets/images/animations/success animation.json";
+  static String thankYouAnimation = "assets/images/animations/thank you.json";
+  static String loadingJuggleAnimation = "assets/images/animations/loading.json";
+  static String loaderAnimation = "assets/images/animations/loader.json";
+  static String paymentSuccessfulAnimation = "assets/images/animations/payment succesful.json";
 
   static const String sportIcon = "assets/icons/categories/sportsIcon.png";
   static const String clothIcon = "assets/icons/categories/clothIcon.png";
